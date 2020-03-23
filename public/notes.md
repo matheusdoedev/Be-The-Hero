@@ -36,7 +36,7 @@
     }
 
     img {
-        width: 720px;
+        width: 320px;
         margin: 32px auto;
     }
 </style>
@@ -65,8 +65,32 @@
 
 <ul>
     <li><em>JavaScript Object Notation</em></li>
-    <li>Uma linguagem , "idioma", usada para fazer o meio campo, a comunicação entre o Eack End
+    <li>Uma linguagem , "idioma", usada para fazer o meio campo, a comunicação entre o Back End
         e o Front End
     </li>
     <li>É uma estrutura de dados.</li>
 </ul>
+
+<h3>Entendendo o React</h3>
+
+<h4>Abordagem tradicional</h4>
+<ul>
+    <li>Na abordagem tradicional, a cada requisição, o servidor retorna o conteúdo
+        completo da página, contendo todo HTML e CSS.
+    </li>
+    <li>Essa abordagem limita o front-end para o browser já que o aplicativo mobile ou
+        serviços externos não vão conseguir interpretar o HTML.
+    </li>
+</ul>
+<img src="img/img-3.png" alt="">
+
+<h4>Abordagem de SPA</h4>
+<ul>
+    <li>Na abordagem de SPA (<em>Single Page Application</em>), as requisições trazem apenas
+        dados como respostas e, com esses dados, o front-end pode preencher as informações
+        em tela.
+    <li>A página nunca recarrega, otimizando a performance e dando vida ao conceito de SPA.
+        Retornando apenas JSON podemos ter quantos front-ends quisermos.
+    </li>
+</ul>
+<img src="img/img-4.png" alt="">

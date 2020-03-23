@@ -4,7 +4,10 @@ const express = require('express'); // estou armazenando todas as funcionalidade
 const app = express();
 
 app.get('/', (request, response) => {
-    return response.json('Hello World');
+    return response.json({
+        evento: 'Semana Omnistack 11.0',
+        aluno: 'Matheus do É Santos'
+    });
 })
 
 app.listen(3333);
