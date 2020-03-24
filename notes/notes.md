@@ -212,3 +212,30 @@
 <ul>
     <li>Corpo da requisição utilizado para criar ou alterar recursos</li>
 </ul>
+
+<h3>Banco de Dados</h3>
+
+<h4>Diferenças entre bancos de dados</h4>
+
+<h5>Banco de Dados hoje no mercado</h5>
+
+<ul>
+    <li>SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server</li>
+    <li>NoSQL: MongoDB, CouchDB, etc</li>
+</ul>
+
+<h5>SQL</h5>
+<ul>
+    <li>É o mais utilizado atualmente no mercado.</li>
+    <li>Permite ter um controle maior da estrutura.</li>
+</ul>
+
+<h5>NoSQL</h5>
+<ul>
+    <li>Bancos não relacionais</li>
+    <li>Os Schemas da tabela, a estrutura da tabela, os campos que ela vai armazenar
+        , fica muito livre e pouco estruturado.
+    </li>
+</ul>
+
+<h4>Comunicação do banco de dados</h4>
