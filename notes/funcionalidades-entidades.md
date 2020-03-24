@@ -3,7 +3,7 @@
 Login de ONG
 Logout de ONG
 Cadastro de ONG ok
-Cadastrar novos casos
+Cadastrar novos casos ok
 Deletar casos
 Listar casos específicos de uma ONG
 Listar todos os casos
