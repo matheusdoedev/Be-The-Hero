@@ -238,4 +238,12 @@
     </li>
 </ul>
 
-<h4>Comunicação do banco de dados</h4>
+<h4>Migrations</h4>
+<ul>
+    <li>Funcionalidade do knex para criar tabelas, manter um histórico das tabelas que foram
+        criadas e alteradas.
+    </li>
+    <li>Como se fosse um controle de versões do banco de dados.</li>
+</ul>
+
+<h3>Pensando nas entidades e funcionalidades</h3>
