@@ -253,4 +253,9 @@
     <li>Como se fosse um controle de versões do banco de dados.</li>
 </ul>
 
-<h3>Pensando nas entidades e funcionalidades</h3>
+<h3>CORS</h3>
+
+<ul>
+    <li>Modulo de segurança</li>
+    <li>Modulo que vai determinar quem vai poder acessar a aplicação.</li>
+</ul>
