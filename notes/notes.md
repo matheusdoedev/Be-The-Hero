@@ -43,7 +43,7 @@
 
 <h1>Minhas anotações - Semana Omnistack 11</h1>
 
-<h2>Dia 1</h2>
+<h2>Dia 1 - Conhecendo a Omnistack</h2>
 
 <h3>Back End e Front End</h3>
 
@@ -106,7 +106,7 @@
 
 <h4>Abordagem do React Native</h4>
 <ul>
-    <li>Todo código feito é em <strong>JavaScript</script>, esse código <strong>não é 
+    <li>Todo código feito é em <strong,>JavaScript</script>, esse código <strong>não é 
         convertido em código nativo, melhor do que isso, o dispositivo passa a entender o código JavaScript
         e a interface gerada é totalmente nativa
     </strong>
@@ -154,4 +154,61 @@
         Com isso, não precisamos nos preocupar em gerar o aplicativo pra Android e iOS já que
         o app do Expo instalado tem tudo o que precisamos e assim usamos apenas React.
     </li>
+</ul>
+
+<hr>
+
+<h2>Dia 2 - Criado a base da aplicação</h2>
+
+<h3>Metodos HTTP</h3>
+
+<ul>
+    <li><strong>GET:</strong>Utilizado quando se quer <em>buscar/listar</em> uma informação.</li>
+    <li><strong>POST:</strong>Utilizado quando se quer <em>criar</em> uma informação no backend</li>
+    <li><strong>PUT:</strong>Utilizado quando se quer <em>alterar</em> uma informação no backend</li>
+    <li><strong>DELETE:</strong>Utilizado quando se quer <em>deletar</em> uma informação no backend</li>
+</ul>
+
+<h3>Insomnia</h3>
+
+<ul>
+    <li>Software utilizado para testar rotas.</li>
+</ul>
+
+<h3>Routes</h3>
+
+<h4>app.post('/users', (<strong>request</strong>, response)</h4>
+<ul>
+    <li>
+        O <strong>request</strong> guarda todos os dados que vem através de uma requisição.
+    </li>
+</ul>
+
+<h4>app.post('/users', (request, <strong>response</strong>)</h4>
+<ul>
+    <li>
+        O <strong>response</strong> é o responsavel por retornar uma resposta ao usuário.
+    </li>
+</ul>
+
+<h3>Tipos de Parametros</h3>
+
+<h4>Query params</h4>
+<ul>
+    <li>Parametros enviados dentro da URL.</li>
+    <li>Parametros nomeados enviados na rota após o '?'</li>
+    <li>Geralmente servem para filtros, paginação</li>
+    <li><em>'/users?name:Diego'</em> ou <em>'/users?name:Diego&idade=25'</em></li>
+</ul>
+
+<h4>Route params</h4>
+<ul>
+    <li>Parametros utilizados para identificar recursos.</li>
+    <li>Identificar um único recurso. Ex.: Um único usuario.</li>
+    <li><em>'/users/:id'</em></li>
+</ul>
+
+<h4>Request Body</h4>
+<ul>
+    <li>Corpo da requisição utilizado para criar ou alterar recursos</li>
 </ul>
