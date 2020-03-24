@@ -1,17 +1,25 @@
 const express = require('express');
+const crypto = require('crypto');
+const connection = require('./database/connection')
 
 const routes = express.Router(); 
 // desacoplando o modulo de rotas do express em uma variavel
 
-routes.post('/users', (request, response) => {
-    const body = request.body;
+routes.post('/ongs', async (request, response) => {
+    const { name, email, whatsapp, city, uf } = request.body;
 
-    console.log(body);
+    const id = crypto.randomBytes(4).toString('HEX');
 
-    return response.json({
-        evento: 'Semana Omnistack 11.0',
-        aluno: 'Matheus do É Santos'
+    await connection('ongs').insert({
+        id,
+        name,
+        email,
+        whatsapp,
+        city,
+        uf,
     });
+
+    return response.json({ id });
 })
 
 module.exports = routes;
