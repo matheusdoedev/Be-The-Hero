@@ -1,5 +1,6 @@
 const express = require('express');
-const OngController = require('./controllers/OngController')
+const OngController = require('./controllers/OngController');
+const IncidentsController = require('./controllers/IncidentsController');
 
 // desacoplando o modulo de rotas do express em uma variavel
 const routes = express.Router(); 
@@ -9,5 +10,8 @@ routes.get('/ongs', OngController.index);
 
 // rota para cadastro das ongs
 routes.post('/ongs', OngController.create);
+
+// rota para cadastro de casos
+routes.post('/incidents', IncidentsController.create);
 
 module.exports = routes;

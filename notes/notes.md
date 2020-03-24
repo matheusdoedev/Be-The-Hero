@@ -213,6 +213,13 @@
     <li>Corpo da requisição utilizado para criar ou alterar recursos</li>
 </ul>
 
+<h4>Request Headers</h4>
+<ul>
+    <li>Cabeçalho da requisição</li>
+    <li>Geralmente onde fica informação do contexto da requisição.</li>
+    <li>É onde geralmente fica dados da autenticação do usuario, localização, etc.</li>
+</ul>
+
 <h3>Banco de Dados</h3>
 
 <h4>Diferenças entre bancos de dados</h4>
