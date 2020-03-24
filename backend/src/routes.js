@@ -12,6 +12,9 @@ routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
 
 // rota para cadastro de casos
+routes.get('/incidents', IncidentsController.index);
+
+// rota para cadastro de casos
 routes.post('/incidents', IncidentsController.create);
 
 module.exports = routes;
