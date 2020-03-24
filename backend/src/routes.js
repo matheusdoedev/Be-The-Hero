@@ -2,9 +2,13 @@ const express = require('express');
 const OngController = require('./controllers/OngController');
 const IncidentsController = require('./controllers/IncidentsController');
 const ProfileController = require('./controllers/ProfileController');
+const SessionController = require('./controllers/SessionController');
 
 // desacoplando o modulo de rotas do express em uma variavel
 const routes = express.Router(); 
+
+// rota para login
+routes.post('/sessions', SessionController.create);
 
 // rota para listagem das ongs
 routes.get('/ongs', OngController.index);
