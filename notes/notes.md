@@ -264,3 +264,37 @@
 
 <h2>Dia 3 - Construindo a interface web</h2>
 
+<h3>Conceitos de React</h3>
+
+<h4>Componentes</h4>
+<ul>
+    <li>Componentes no React são funções JavaScript que retornam HTML</li>
+    <li>Componentes permitem você dividir a UI em partes independentes, 
+        reutilizáveis e pensar em cada parte isoladamente.</li>
+    <li>Um componente React válido aceita um único argumento de objeto <strong>"props"</strong></li>
+    <li>São chamados de <strong>Componentes de função</strong> porque são literalmente
+    funções JavaScript</li>
+</ul>
+
+<h4>JSX</h4>
+<ul>
+    <li><em>JavaScript XML</em></li>
+    <li>HTML escrito dentro do JavaScript</li>
+</ul>
+
+<h4>Estado</h4>
+<ul>
+    <li>Uma informação que vai ser mantida pelo componente.</li>
+    <li>No React, não se pode usar simplesmente variaveis convensionais para manipular
+        dados nos componentes.
+    </li>
+    <li><strong>Imutabilidade :</strong>Dentro do React, por questões de performance, não se pode
+    manipular a variavel do estado, ou seja, o estado diretamente. Tende <em>sobrepor</em>.</li>
+</ul>
+
+<h5>Metodo useState()</h5>
+<ul>
+    <li>Quando esse metodo é utilizado, ele retorna um array com duas posições.</li>
+    <li><strong>[valor, funcaoDeAtualizacao]</strong> A primeira posição é a variavel, a segunda
+    é a função de atualização</li>
+</ul>
