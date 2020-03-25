@@ -259,3 +259,8 @@
     <li>Modulo de segurança</li>
     <li>Modulo que vai determinar quem vai poder acessar a aplicação.</li>
 </ul>
+
+<hr>
+
+<h2>Dia 3 - Construindo a interface web</h2>
+
