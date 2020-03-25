@@ -298,3 +298,18 @@
     <li><strong>[valor, funcaoDeAtualizacao]</strong> A primeira posição é a variavel, a segunda
     é a função de atualização</li>
 </ul>
+
+<h3>React Router Dom</h3>
+<ul>
+    <li>
+        <strong>react-router-dom</strong>: Pacote utilziado para lidar com rotas na aplicação.
+    </li>
+    <li>
+        <strong>BrowserRouter</strong>: Precisa ficar em volta das rotas para que o roteamento
+        funcione.
+    </li>
+    <li>
+        <strong>Switch</strong>: Tem a função de garantir que apenas uma rota seja executada por
+        momento
+    </li>
+</ul>
