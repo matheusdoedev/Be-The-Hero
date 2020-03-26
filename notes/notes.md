@@ -320,3 +320,7 @@
         Serve para disparar alguma função em um determinado momento do componente.
     </li>
 </ul>
+
+<hr>
+
+<h2>Dia 4 - Construindo a interface mobile</h2>
