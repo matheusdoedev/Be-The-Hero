@@ -313,3 +313,10 @@
         momento
     </li>
 </ul>
+
+<h3>useEffect</h3>
+<ul>
+    <li>
+        Serve para disparar alguma função em um determinado momento do componente.
+    </li>
+</ul>
