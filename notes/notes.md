@@ -324,3 +324,21 @@
 <hr>
 
 <h2>Dia 4 - Construindo a interface mobile</h2>
+
+<hr>
+
+<h2>Dia 5 - Adicionando funcionalidades avançadas</h2>
+
+<h3>Validação</h3>
+
+<h4>Celebrate & Joi</h4>
+<ul>
+    <li>Utilizado para fazer validação de entrada de informação nas rotas.</li>
+</ul>
+
+<h3>Testes</h3>
+
+<ul>
+    <li><strong>TDD</strong>: <em>Test-Driven Development</em> ou Desenvolvimento dirigido a testes</li>
+    <li></li>
+</ul>
