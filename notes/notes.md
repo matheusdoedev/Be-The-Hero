@@ -340,5 +340,11 @@
 
 <ul>
     <li><strong>TDD</strong>: <em>Test-Driven Development</em> ou Desenvolvimento dirigido a testes</li>
-    <li></li>
+</ul>
+
+<h3>Tipos de testes no jest</h3>
+<ul>
+    <li><strong>Testes unitarios</strong>: Testa uma parte da aplicação de forma isolada. Ex.: Testa uma função bem especifica
+     que faz algo, por exemplo, bem isolada da aplicação</li>
+    <li><strong>Testes de integração</strong>: São testes que vão tester o fluxo de uma rota inteira da aplicação.</li>
 </ul>
